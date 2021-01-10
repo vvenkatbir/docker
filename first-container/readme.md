@@ -20,3 +20,11 @@ c)docker container run -d --name fc -p 8000:8080 vvasant3/docker-example:first-c
 d) docker container start will start the container 
 
 e) docker container stop will stop the container 
+
+f) docker container ls -a will list all the running containers
+
+g) docker images will list all the images 
+
+i)docker image rm <imageID> will remove the specified images 
+  
+j)docker container rm <container_ID> will delete the stopped container use d and e commands to start and stop the container
